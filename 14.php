@@ -9,7 +9,7 @@
 $foo = 'bar';
 $bar = 10;
 
-echo $foo;
+//print $foo;
+print $$foo;
 
 
-//ДОделать
