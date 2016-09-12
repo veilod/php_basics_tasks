@@ -8,10 +8,8 @@
 
 $a = 10;
 $b = 20;
-//$operator;
+$operator = "-";
 
-
-function calculator ($a , $b) {
     switch ($operator) {
         case "+" :
             $result = $a + $b;
@@ -35,7 +33,4 @@ function calculator ($a , $b) {
         default: echo "Неизвестное число";
     }
 
-}
-
-$result =  calculator (3,7);
 echo $result;
