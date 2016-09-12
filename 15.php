@@ -8,7 +8,7 @@
 
 $a = 10;
 $b = 20;
-$operator;
+//$operator;
 
 
 function calculator ($a , $b) {
